@@ -1,9 +1,18 @@
 #include <stdio.h>
 
-/*Write a C program that prints the size of various types on the computer it is compiled and run on.
+/*
+ * Write a C program that prints the size of various
+ * types on the computer it is compiled and run on
  */
 
-int main () 
+/**
+ * main - This is the program entry in C
+ *
+ * Description: Program entry
+ * Return: 0 if program exited successfully
+ */
+
+int main(void)
 {
 	printf("Size of a char: %d byte\(s\)\n", sizeof(char));
 	printf("Size of an int: %d byte\(s\)\n", sizeof(int));
@@ -11,5 +20,5 @@ int main ()
 	printf("Size of a long long int: %d byte\(s\)\n", sizeof(long long int));
 	printf("Size of a float: %d byte\(s\)\n", sizeof(float));
 
-	return 0;
+	return (0);
 }
