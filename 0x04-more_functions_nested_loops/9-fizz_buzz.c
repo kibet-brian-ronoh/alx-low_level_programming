@@ -22,8 +22,8 @@ void fizz_buzz(void)
 {
 	int i;
 
-	i = 0;
-	while (i < 100)
+	i = 1;
+	while (i <= 100)
 	{
 		if (i % 3 == 0)
 		{
@@ -39,7 +39,7 @@ void fizz_buzz(void)
 		}
 		else
 		{
-			printf("%d ", i + 1);
+			printf("%d ", i);
 		}
 		i++;
 	}
