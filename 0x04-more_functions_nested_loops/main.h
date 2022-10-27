@@ -1,5 +1,5 @@
-#ifndef main.h
-#define main.h
+#ifndef main
+#define main
 #include <stdio.h>
 
 int _isupper(int c);
